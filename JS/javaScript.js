@@ -1,4 +1,4 @@
-class inherittedProperties {
+class inheritedProperties {
     constructor  (X) {
         this.X = X;
     }
@@ -17,10 +17,10 @@ class inherittedProperties {
     }
 }
 
-class Ivan extends inherittedProperties {
+class Ivan extends inheritedProperties {
     
-    constructor(inherittedMoney, year) {
-        super(inherittedMoney);
+    constructor(inheritedMoney, year) {
+        super(inheritedMoney);
         this.year = year;
         this.age = 18;
     }
